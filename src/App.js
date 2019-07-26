@@ -49,7 +49,6 @@ class App extends React.Component {
         <Route path="/" exact render={props => (<div style={{ margin: '35vh auto', textAlign: 'center' }}>
           {!this.props.loggedin && <h1>Sign in or register</h1>}
           {this.props.loggedin && <h1>Welcome {this.props.name}</h1>}
-          </ul>
         </div>)} />
       </div>
     );
