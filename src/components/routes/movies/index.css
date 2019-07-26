@@ -1,0 +1,23 @@
+.table {
+    width: 70rem;
+    margin: auto;
+}
+.avatar{
+    width: 6rem;
+}
+.badge{
+    display: block;
+    margin: 2px 5px;
+}
+.table td {
+    vertical-align: middle;
+}
+.thstyle {
+   display: flex;
+}
+.hash_cont {
+
+}
+.pagination{
+    margin: auto;
+}
