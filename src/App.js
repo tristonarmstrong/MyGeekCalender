@@ -47,18 +47,8 @@ class App extends React.Component {
         <Route path="/user/logout" component={Logout} />
 
         <Route path="/" exact render={props => (<div style={{ margin: '35vh auto', textAlign: 'center' }}>
-          {!this.props.loggedin && <h1>Sign in to admin, or register</h1>}
+          {!this.props.loggedin && <h1>Sign in or register</h1>}
           {this.props.loggedin && <h1>Welcome {this.props.name}</h1>}
-          <p><strong>email: </strong>admin.00@admin.com</p>
-          <p><strong>password: </strong>password</p>
-          <h3>Goals</h3>
-          <ul>
-            <li>Table filters</li>
-            <li>Number of events dropdown</li>
-            <li>User dashboard</li>
-            <li>Admin dashboard</li>
-            <li>Crud routes for admin</li>
-            <li>landing page</li>
           </ul>
         </div>)} />
       </div>
